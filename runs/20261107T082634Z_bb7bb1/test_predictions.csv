@@ -1,0 +1,415 @@
+source_index,text,truth,prediction
+8,"Mobile dak-undurne, abanana!",0,0
+9,"Mobile adalem undurake, panjenengan paringi dhawuh!",1,1
+10,"Mobilipun kula unduraken, sampeyan abani!",2,2
+11,"Mobilipun adalem unduraken, panjenengan paringi dhawuh!",3,3
+32,"Iki, lipstikmu ngabang-abangi klambiku!",0,0
+33,"Menika, lipstik sampeyan ngabrit-abriti rasukan kula!",2,2
+68,"Sawise Raden Wijaya gelem, para kawula ngadegake dadi ratu ing Majapait.",0,0
+69,"Sawise Raden Wijaya kersa, para kawula njumenengake dadi ratu ing Majapait.",1,1
+70,"Sasampuninpun Raden Wijaya purun, para kawula ngadegaken dados ratu ing Majapait.",2,2
+71,"Sasampunipun Raden Wijaya kresa, para kawula njumenengaken dados ratu ing Majapait.",3,3
+84,Enggonmu nyawatake adoh-adohe kira-kira mung salawe meter.,0,0
+85,Enggen sampeyan nyawataken tebih-tebihipun namung kinten-kinten selangkung meter.,2,2
+86,"Enggone nyawatake saka kene wae, aja ngadoh-ngadoh!",0,0
+87,"Enggenipun nyawataken saking ngriki kemawon, sampun nebih-nebih!",2,2
+90,"Sanajan kowe ndeleng saadoh-adohe, anane mung banyu sagara.",0,0
+91,"Sanajan sampeyan ningali satebih-tebihipun, wontenipun namung toya saganten.",2,2
+102,"Kae, embah lanang dikon adus dhisik!",0,0
+103,"Kae, eyang kakung diaturi siram dhisik!",1,0
+104,"Menika, embah jaler dipunken adus rumiyin!",2,2
+105,"Menika, eyang kakung dipunaturi siram rumiyin!",3,2
+130,Mahasiswa sing arep KKN diadhepake Pak Camat.,0,0
+131,Mahasiswa ingkang badhe KKN dipunadhepaken Pak Camat.,2,3
+144,Pak Parman akon Tana supaya ngancani anake.,0,0
+145,Pak Parman dhdwuh Tana supaya ngancani putrane.,1,1
+146,Pak Parman aken Tana supados ngancani anakipun.,2,2
+147,Pak Parman dhawuh Tana supados ngancani putranipun.,3,3
+148,"Jeng Tini, mau aku ketemu bojomu.",0,0
+149,"Jeng Tini, mau adalem ketemu ingkang garwa.",1,3
+150,"Jeng Tini, wau kula kepanggih semah sampeyan.",2,2
+151,"Jeng Tini, wau adalem kepanggih ingkang garwa.",3,3
+160,"Aja nganti ana biji lima, supaya ora ngalan-ngalani rapor!",0,0
+161,"Sampun ngantos wonten biji gangsal, supados boten ngawon-awoni rapor!",2,2
+166,"Yen tanpa alangan, suk dina Minggu aku arep mulih",0,0
+167,Yen tanpa pambengan benjing dinten Minggu kula badhe mantuk.,2,2
+170,Daraku sajodho kalangan ing awang-awang.,0,0
+171,Dara kula sajodho kalangan ing awang-awang.,2,0
+172,"Arep liwat kene kalangan kali, ayo liwat kana wae!",0,0
+173,"Badhe langkung ngriki kapambengna lepen, mangga langkung ngrika kemawon!",2,2
+182,Butane kambon entute Semar gebres-gebres,0,0
+183,Denawanipun kambetan entutipun Semar gebres-gebres.,2,2
+188,"Jangan kuwi wis mambu, aja dipangan!",0,0
+189,"Jangan menika sampun mambet, sampun dipuntedha!",2,2
+196,"Putune wadon dijungkati, dipupuri banjur diambung.",0,0
+197,"Wayahe putri dipethati, ditasiki banjur diaras.",1,1
+198,"Putunipun estri dipunserati, dipunpupuri lajeng dipunambung.",2,2
+199,"Wayahipun putri dipunpethati, dipuntasiki lajeng dipunaras.",3,3
+200,Bu Dewi amek kembang ing ngarep omah.,0,0
+201,Bu Dewi mundhut kembang ing ngarep omah.,1,0
+202,Bu Dewi mendhet sekar ing ngajeng griya.,2,2
+203,Bu Dewi mundhut sekar ing ngajeng dalem.,3,1
+204,Pak Parman amek iwak ana ing kali.,0,0
+205,Pak Parman pados ulam wonten ing lepen.,2,2
+206,"Amit-amit, dak-mbenerake gelunganmu!",0,0
+207,"Kula nuwun sewu, adalem mbenerake ukel panjenengan!",1,1
+208,"Amit-amit, kula ngleresaken gelungan sampeyan!",2,2
+209,"Kula nuwun sewu, adalem ngleresaken ukel panjenengan!",3,3
+214,"Aku arep nyumbang bata, ana dene kowe pantese semen!",0,0
+215,"Kula badhe nyumbang banon, wondening sampeyan pantesipun semen!",2,2
+220,Kaanan moneter nagarane dhewe saya becik.,0,0
+221,Kawontenan moneter nagarinipun piyambak saya sae.,2,2
+224,"Kabutuhane sekolah ana-ana wae, dhek wingi buku, mau esuk garisan, saiki tas.",0,0
+225,"Kabetahanipun sekolah wonten-wonten kemawon, kala wingi buku, wau enjing penggaris, samenika tas.",2,2
+236,Saiki Bu Endah wis duwe anak loro.,0,0
+237,Saiki Bu Endah wis kagungan putra loro,1,1
+238,Sameniko Bu Endah sampun gadhah anak kalih.,2,2
+239,Samenika Bu Endah sampun kagungan putra kalih.,3,3
+262,Ayo ndang adus selak wengi!,0,0
+263,"Mangga, ndang (enggal) adus, selak dalu!",2,0
+270,Tinah ani-ani ana ing sawah.,0,0
+271,Tinah mugut wonten ing sabin.,2,2
+298,Apa ana wit gedhang awoh gori?,0,0
+299,Menapa wonten wit pisang awoh gori?,2,0
+316,Bapak arep lunga menyang sawah.,0,0
+317,Bapak badhe kesah dhateng sabin.,2,2
+322,Sawise anake lair ari-arine uga banjur metu.,0,0
+323,Sawise ingkang putra miyos tuntunane uga banjur metu.,1,1
+324,"Sasampunipun anakipun lair, ari-arinipun ugi lajeng medal.",2,2
+325,"Sasampunipun ingkang putra miyos, tuntunanipun ugi lajeng medal.",3,3
+362,Omahe Pak Purba sing pinggir dalan wis aweh dak tuku.,0,0
+363,Daleme Pak Purba sing pinggir dalan wis kepareng adalem tuku.,1,1
+364,Griyanipun Pak Purba ingkang pinggir margi sampun angsal kula tumbas.,2,2
+365,Dalemipun Pak Purba ingkang pinggir margi sampun kepareng adalem tumbas.,3,3
+370,Iku werdine tembang sing dak-waca ing ngarep.,0,0
+371,Menika werdinipun tembang ingkang kula waos ing ngajeng.,2,2
+408,Dhayoh sing ana ing ngarepan kae sapa?,0,0
+409,tamu ingkang woonten ing ngajengan menika sinten?,2,3
+428,Pamikiranmu iku prayoga katur bapak bupati wae.,0,0
+429,Panggalihan panjenengan iku prayoga konjuk bapak bupati wae!,1,1
+430,Pamanahan sampeynan menika prayogi katur bapak bupati kemawon!,2,2
+431,Panggalihan panjenengan prayogi konjuk bapak bupati kemawon!,3,3
+440,"Yen lunga menyang pasar awanana wae, kira-kira jam sapuluh!",0,0
+441,"Yen tindhak menyang pasar panjenenngan awani wae, kira-kira jam sapuluh!",1,1
+442,"Yen kesah dhateng peken sampeyan siyangi kemawon, kinten-kinten pukul sadasa!",2,2
+443,"Yen tindhak dhateng peken panjenengnan siyangi kemawon, kinten-kinten pukul sadasa!",3,3
+456,Mbak tanti arep tuku bakal ing toko.,0,0
+457,Mbak tanti badhe tumbas badhe ing toko.,2,2
+486,Kandhaa dhewe marang bapakku!,0,0
+487,Panjenengan ngandika dhewe marang bapak adalem!,1,1
+488,Sampeyan criyos piyambak dhateng bapak kula!,2,2
+489,Panjenengan ngandika piyambak dhateng bapak adalem!,3,3
+504,Bengi-bengi kok mrene kuwi baturmu sapa?,0,0
+505,Dalu-dalu mriki menika rencang sampeyan sinten?,2,2
+534,Mas Wardi tetuku ana ing toko karo bojone,0,0
+535,Mas Wardi memundhut ana ing toko karo garwane (ingkang garwa).,1,1
+536,Mas Wardi tetumbas wonten ing toko kaliyan semahipun.,2,2
+537,Mas Wardi memundhut wonten ing toko kaliyan garwanipun (ingkang garwa).,3,3
+554,"Sing padha sregep sinau ngulir budi, supaya bisa dadi wong pinter.",0,0
+555,"Sing padha sregep sinau ngulir panggalih, supaya bisa dadi priyayi pinter.",1,0
+556,"Ingkang sami sregep ngulir manah, supados saged dados tiyang pinter.",2,2
+557,"Ingkang sami sregep sinau ngulir panggalih, supados saged dados priyantun pinter.",3,2
+586,"Kancamu wis rampung bebuwang, saiki lagi cewok.",0,0
+587,"Kanca panjenengan wis rampung bobotan, saiki lagi cawik.",1,1
+588,"Kanca sampeyan sampun rampung bebucal, samenika saweg cewok.",2,2
+589,"Kanca panjenengan sampun rampung bobotan, samenika saweg cawik.",3,3
+592,"Pak Guru kae sregep lan temen, mula kacedhak dening Kepala Sekolah.",0,0
+593,"Pak Guru menika sregep lan temen, mila kacelak dening Kepala Sekolah.",2,2
+594,"Manawa ndeleng munyuk aja cedhak-cedhak, mundhak dicakot!",0,0
+595,"Manawi ningali munyuk sampun celak-celak, mindhak dipuncakot!",2,2
+596,Saka kene tekan Purwareja iku cedhak-cedhake seket kilometer.,0,0
+597,Saking ngriki dumugi Purwareja menika celak-celakipun seket kilometer.,2,2
+604,"Pak Purba nyekel cemethi,sajake arep nunggang jaran.",0,1
+605,"Pak Purba ngasta tembung, sajake arep nitih titihan.",1,1
+606,"Pak Purba nyepeng cemethi, sajakipun badhe numpak kapal.",2,2
+607,"Pak Purba ngasta tembung, sajakipun badhe nitih titihan.",3,2
+614,"Layang iki kacukup samene dhisik, liya wektu dibanjurake.",0,0
+615,"Surat menika kacekap samanten rumiyin, sanes wekdal dipun lajengaken.",2,2
+624,"Sajrone bojoku lunga, rewangana nyukup-nyukupake kabutuhan ngomah!",0,0
+625,"Sadangunipun semah kula kesah, sampeyan rencangi nyekap-nyekapaken kabetahan nggriya!",2,2
+646,Dadi bapakmu iku guru?,0,0
+647,Dados bapak sampeyan menika guru?,2,2
+652,"Nagih utang ora diwenehi, malah dadi padu.",0,0
+653,"Nagih sambutan boten dipun-sukani, malah dados paben.",2,2
+654,"Mung ndeleng jathilan wae nunggang pitmotor, bareng ilang dadi paran tutuhan.",0,0
+655,"Namun nningali jathilan kemawon numpak pitmotor, sareng ical dados paran tetahan.",2,2
+664,"Dheweke gelem prihatin, kadadeane saiki bisa urip mulya.",0,0
+665,"Piyambakipun purun prihatos, kadadosanipun sameniko saged desang mulya.",2,2
+680,Kabel iki uluren sadawa-dawane.,0,0
+681,Kabel menika sampeyan ular sapanjang-panjangipun.,2,2
+682,Sadawa-dawane urip ing donya isih dawa ing akerat.,0,0
+683,Sapanjang-panjangipun gesang ing donya taksih panjang ing akerat.,2,2
+708,"Embok cilik teka, arep dak-wenehi wedang.",0,0
+709,"Ibu cilik rawuh, arep adalem caosi unjukan.",1,1
+710,"Embok alit dhateng, badhe kula sukani benteran.",2,2
+711,"Ibu alit rawuh, badhe adalem caosi unjukan.",3,3
+712,Kowe dandan iku arep lunga menyang ngendi?,0,0
+713,Panjenengan ngagem pangageman (busana) iku arep tindak menyang ngendi?,1,1
+714,Sampeyan dandos menika badhe kesah dhateng pundi?,2,2
+715,Panjenengan ngagem pangageman (busana) menika badhe tindak dhateng pundi?,3,3
+722,"Rahayune pasulayan iku dadi rampung, dadi ora kedawa-dawa.",0,0
+723,"Rahayunipun pasulayan menika lajeng rampung, dados boten kepanjang-panjang.",2,2
+748,"Bu Harti arep tuku gula selawe kilo, wis dak-dolane.",0,0
+749,"Bu Marti arep mundhut gula selawe kilo, wis adalem dolane.",1,1
+750,"Bu Harti badhe tumbas gendhis selangkung kilo, sampun kula sadeanipun.",2,2
+751,"Bu Harti badhe mundhut gendhis selangkung kilo, sampun adalem sadeanipun.",3,3
+766,"Iki dudu kenthang, nanging tela.",0,0
+767,"Menika dede kenthang, nanging tela.",2,2
+810,Yen mung sadhela rong-dhela aku gelem melu menyang Jakarta.,0,0
+811,Yen namung sakedhap kalih kedhap kula purun tumut dhateng Jakarta.,2,2
+814,"Kancane akeh, aja lungguh dhewekan!",0,0
+815,"Kancanipun kathah, sampun lenggah piyambakan!",2,2
+822,"Kanca-kanca ngepit kabeh, aku ndheweki mlaku.",0,0
+823,"Kanca-kanca ngepit sadaya, kula miyambaki mlampah.",2,2
+824,Bocah-bocah padha mlaku dhewe-dhewe.,0,0
+825,Lare-lare sami mlampah piyambak-piyambak.,2,2
+856,Di ngati-ngati yen liwat dalan rame!,0,0
+857,"Ingkang ngatos-atos manawi, langkung margi rame!",2,2
+866,Sing padha njoged Bedhaya kabeh ngagem dodod.,0,0
+867,Sing padha mbeksa Bedhaya kabeh ngagem kampuh.,1,1
+868,Ingkang sami njoged Bedhaya sadaya ngagem dodod.,2,2
+869,Ingkang sami mbeksa Bedhaya sadaya ngagem kampuh.,3,3
+876,"Wah, montore apik-apik, elek-eleke jinis Suzuki!",0,0
+877,"Wah, montoripun sae-sae, awon-awonipun jinis Suzuki!",2,2
+878,"Topine dianggo, supaya ora ngelek-eleki upacara!",0,0
+879,"Topinipun dipunangge, supados boten ngawon-awoni upacara!",2,2
+894,"Taksine isih anyar, ditunggangi kepenak.",0,0
+895,"Taksinipun taksih enggal, dipuntumpaki sekeca.",2,2
+904,"Kancane padha mangsak, kowe malah enak-enak teturon.",0,0
+905,"Kancanipun sami mangsak, sampeyan malah eca-eca tileman.",2,2
+908,Iki mau sakesuk udane ora terang-terang.,0,0
+909,Menika wau sakenjing jawahipun boten terang-terang.,2,2
+924,"Dak-ebotne kakangmu tinimbang dituku wong liya,",0,0
+925,Adalem ebotake ingkang raka tinimbang dituku wong liya.,1,1
+926,Kula awrataken kakang sampeyan tinimbang dipuntumbas tiyang sanes.,2,2
+927,Adalem awrataken ingkang raka tinimbang dipuntumbas tiyang sanes.,3,3
+936,Para mudha ngedegake pakumpulan Karang Taruna.,0,0
+937,Para mudha ngedegaken pakempalan Karang Taruna.,2,0
+942,Akeh kang padha ndeleng edeg-edegan Ratu ing Majapait,0,0
+943,Akeh kang padha mriksani jumenengan Ratu ing Majapait,1,1
+944,Kathah ingkang sami ningali edeg-edegan Ratu ing Majapait,2,2
+945,Kathah ingkang sami mriksani jumenengan Ratu ing Majapait,3,3
+954,"Ana ing Surabaya aku bingung, ora ngerti elor kidul.",0,0
+955,"Wonten ing Surabaya kula bingung, boten ngertos eler kidul.",2,2
+970,"Pak Brata, iki anakmu nangis nggoleki emboke!",0,0
+971,"Pak Brata, iki ingkang putra muwun nggoleki ibune!",1,1
+972,"Pak Brata, menika anak sampeyan nangis madosi embokipun!",2,2
+973,"Pak Brata, menika ingkang putra muwun madosi ibunipun!",3,3
+974,"Apa kowe weruh, embokku ana ing ngendi?",0,0
+975,Apa panjenengan priksa embok adalem ana ing ngendi?,1,1
+976,"Menapa sampeyan sumerep, embok kula wonten ing pundi?",2,2
+977,"Menapa panjenengan priksa, embok adalem wonten ing pundi?",3,3
+978,"Bu Ayu: Nak Bagus, ayo mampir sadhela!” Bagus: Emoh Bu, aku kesusu meneh-menehake layang iki.”",0,0
+979,"Bu Ayu: ”Nak Bagus, sumangga pinarak sadhela!” Bagus: Nyuwun pangapura Bu, adalem kesusu nyaos-nyaosake layang iki!”",1,1
+980,"Bu Ayu: ”Nak Bagus, mangga mampir sakedhap!” Bagus: Boten Bu, kula kesesa nyukak-nyukakaken serat menika.”",2,2
+981,"Bu Ayu: ”Nak Bagus, sumangga pinarak sakedhap!” Bagus: Nyuwun pangapunten Bu, adalem kesesa nyaos-nyaosaken serat menika.”",3,3
+990,Jenewer iku omben-omben kang ngendemi.,0,0
+991,Jenewer iku unjukan kang muroni.,1,0
+992,Jenewer menika omben-omben ingkang ngendemi.,2,2
+993,Jenewer menika unjukan ingkang muroni.,3,2
+994,Montor sing kleru dalane diendheg dening Pak Pulisi.,0,0
+995,Montor ingkang klentu marginipun dipunendheg (dipunkendelaken) dening Pak Pulisi.,2,2
+1008,Saben tuku gula pasir entek-entek wae.,0,0
+1009,Saben tumbas gendhis pasir telas-telas kemawon.,2,2
+1020,"Enggonku nyilih piring, kabeh ana rong Iosin.",0,0
+1021,"Enggon adalem nyuwun ngampil ambengan, kabeh ana rong Iosin.",1,1
+1022,"Enggen kula nyambut lancaran, sadaya wonten kalih Iosin.",2,2
+1023,"Enggen adalem nyuwun ngampil ambengan, sadaya wonten kalih Iosin.",3,3
+1042,"Wah, yen keduga atine banjur mesam-mesem.",0,0
+1043,"Wah, yen kedugi manahipun lajeng mesam-mesem.",2,2
+1064,Pak Brata arep duwe gawe netakake anake.,0,0
+1065,Pak Brata arep kagungan kersa nyupitake putrane.,1,1
+1066,Pak Brata badhe gadhah damel netakaken anakipun.,2,2
+1067,Pak Brata badhe kagungan kersa nyupitaken putranipun.,3,3
+1068,"Jaket iki gawanen, kena kanggo tutup dhadha!",0,0
+1069,"Jaket iki panjenengan ampil, kena kagem tutup jaja!",1,1
+1070,"Jaket menika sampeyan bekta, kenging kangge tutup dhadha!",2,2
+1071,"Jaket menika panjenengan ampil, kenging kagem tutup jaja!",3,3
+1078,Si Totok dolan dhewe.,0,0
+1079,Pun Totok dolan piyambak.,2,2
+1106,Mbakyu nunggang bis medhun ing ngarep omahe.,0,0
+1107,Mbakyu numpak bis medhak ing ngajeng griyanipun.,2,2
+1114,Bukune ana ing dhuwur lemari.,0,0
+1115,Bukunipun wonten ing nginggil lemantun.,2,2
+1116,Gawea gapura kira-kira sadhuwure wit kates iki!,0,0
+1117,Sampeyan damel gapura kinten-kinten sainggilipun wit kates menika!,2,2
+1122,Suwenge barleyan wis dituku Bu Ambar.,0,0
+1123,Sengkange barleyan wis dipundhut Bu Ambar.,1,1
+1124,Suwengipun barleyan sampun ditumbas Bu Ambar.,2,2
+1125,Sengkanginpun barleyan sampun dipunpundhut Bu Ambar.,3,2
+1130,Jarenen biyen dheweke tau edan.,0,0
+1131,Ngandikane biyen panjenengan tau gerah ewah.,1,1
+1132,Criyosipun rumiyin piyambakipun nate edan.,2,2
+1133,Ngandikanipun rumiyin panjenenganipun nate gerah ewah.,3,3
+1138,"Eling-elingna, laire keponakanku kae tanggal pira!",0,0
+1139,"Panjenengan eling-elingake, laire keponakan adalem kae tanggal pira!",1,1
+1140,"Sampeyan enget-engetaken, lairipun kepenakan kula menika tanggal pinten!",2,2
+1141,"Panjenengan enget-engetaken, lairipun kepenakan adalem menika tanggal pinten",3,3
+1142,"Aku nyetir montor ora nggawa SIM, keling-kelingan wis tekan kutha.",0,0
+1143,"Kula nyetir montor boten mbekta SIM, kenget-kengetan sampun dumugi kitha.",2,2
+1150,Rembuge pancen enak dirasakake.,0,0
+1151,Rembagipun mila eca dipun raosaken.,2,2
+1152,Ayo jajan enak-enakan ana ing restoran!,0,0
+1153,Mangga jajan eca-ecanan wonten ing restoran!,2,2
+1156,Bu Rini lagi ngenak-enak enggone masak bakmi.,0,0
+1157,Bu Rini saweg eca-eca enggenipun mangsak bakmi.,2,2
+1172,"Dhuwit konsumsi satus ewu rupiyah kanggo wong salawe, dadi petungane wong siji patang ewu rupiyah.",0,0
+1173,"Arta konsumsi satus ewu rupiyah kangge tiyang salangkung, dados petanganipun tiyang satunggal kawan-ewu rupiyah.",2,2
+1184,"Kae bapakmu ana ing njero, ora ewuh-ewuh mung maca koran.",0,0
+1185,"Menika bapak sampeyan ing nglebet, boten ewed-ewed namung maos koran.",2,2
+1186,"Mbak Reni kok nempe akeh banget, apa arep ewuh-ewuhan?",0,0
+1187,"Mbak Reni kokk nempe kathah sanget, menapa badhe ewed-ewedan?",2,2
+1190,"Bayarku kuwi nganggo urip wae ora sedheng, isih diebot-eboti ngragadi sekolah keponakan.",0,0
+1191,"Bayar kula menika kangge gesang kemawon boten cekap, taksih dipunawrat-awrat ngragadi sekolah kepenakan.",2,2
+1192,"Telane kuwi sathithik wae, mundhak ngebot-eboti gawan!",0,0
+1193,"Telanipun menika sakedhik kemawon, mindhak ngawrat-awrati bektan!",2,2
+1194,Sing diedegake dadi Ratu ing Majapahit aran Raden Wijaya,0,0
+1195,Sing dijumenegake dadi Ratu ing Majapahit asma Raden Wijaya,1,0
+1196,Ingkang dipunedegaken dados Ratu ing Majapahit nama Raden Wijaya,2,2
+1197,Ingkang dipunjumenengaken dados Ratu ing Majapahit asma Raden Wijaya,3,3
+1276,Omah suwung kuwi saiki dadi enggon lawa.,0,0
+1277,Griya suweng menika samenika dados enggen lawa,2,2
+1280,Enggonmu turu apa kemulan jarit?,0,0
+1281,Enggon panjenengan sare apa singeban nyamping?,1,1
+1282,Enggen sampeyan tilem menapa kemulan singjang?,2,2
+1283,Enggen panjenengan sare menapa singeban nyamping?,3,3
+1288,Mbak Narti diepek bojo Mas Narta.,0,0
+1289,Mbak Narti dipundhut garwa Mas Narta.,1,1
+1290,Mbak Narti dipunpendhet semah Mas Narta.,2,2
+1291,Mbak Narti dipunpundhut garwa Mas Narta.,3,1
+1296,"Supaya ora blereng, matane dieremake sadhela!",0,0
+1297,"Supaya ora blereng, tingale dikejepake sadhela!",1,0
+1298,"Supados boten blereng, mripatipun dipuneremaken sakedhap!",2,2
+1299,"Supados boten blereng, tingalipun dipunkejepaken sakedhap!",3,2
+1312,Raden Janaka lunga menyang pretapan dietutake prepat panakawan.,0,0
+1313,Raden Janaka tindak menyang pretapan didherekake prepat panakawan.,1,1
+1314,Raden Janaka kesah dhateng pretapan dipunetutaken prepat panakawan.,2,2
+1315,Raden Janaka tindak dhateng pretapan dipundherekaken prepat panakawan.,3,3
+1340,"Ayo ngirim Bapak, saiki lagi magawe ana ing sawah!",0,0
+1341,"Mangga ngintun Bapak, samenika saweg madamel wonten ing sabin!",2,2
+1370,Sesuk kowe njaluk digugah jam pira?,0,0
+1371,Sesuk panjenengan mundhut diwungu jam pira?,1,1
+1372,Benjing enjing sampeyan nedha dipun-gigah pukul pinten?,2,2
+1373,Benjing enjing panjenengan mundhut dipunwungu pukul pinten?,3,3
+1396,"Yen kowe seneng jamku iki, ayo ijolanl",0,0
+1397,"Yen sampeyan seneng jam kula menika, mangga lintonan!",2,2
+1410,Pak Prapta diiloni adhine sing kuliah ana ing Gadjah Mada.,0,0
+1411,Pak Prapta didhereki ingkang rayi sing kuliah ana ing Gadjah Mada.,1,1
+1412,Pak Prapta dipuntumuti adhinipun ingkang kuliah wonten ing Gadjah Mada.,2,2
+1413,Pak Prapta dipundhereki ingkang rayi ingkang kuliah wonten ing Gadjah Mada.,3,3
+1414,"Enggonmu mangan aja isin, ayo imbuh!",0,0
+1415,"Enggon panjenengan dhahar aja isin, sumangga tanduk!",1,1
+1416,"Enggen sampeyan nedha sampun lingsem, mangga imbuh!",2,2
+1417,"Enggen panjenengan dhahar sampun lingsem, sumangga tanduk!",3,3
+1426,"Pak Krama saiki sugih, amarga ngingu-ingu, jarene thuyul saka pucuk gunung.",0,0
+1427,"Pak Krama samenika sugih, amargi ngingah-ingah, criyosipun thuyul saking pucuk redi",2,2
+1428,Irenga kae bocahe rak pinter.,0,1
+1429,Cemenga menika larenipun rak pinter.,2,3
+1462,TNI saguh nanggulangi ancaman saka njaban nagara.,0,0
+1463,TNI sagah nanggulangi ancaman saking njawi nagari.,2,2
+1476,"Gambare Tana dijaluk Bu Tini, banjur diwenehake.",0,0
+1477,"Gambare Tana dipundhut Bu Tini, banjur dicaosake.",1,1
+1478,"Gambaripun Tana dipuntedha Bu Tini, lajeng dipunsukakaken.",2,2
+1479,"Gambaripun Tana dipunpundhut Bu Tini, lajeng dipuncaosaken.",3,3
+1484,Dhik Warni duwe panjaluk supaya diwenehi potrete Mas Warna.,0,0
+1485,Dhik Warni duwe panyuwun supaya diparingi potrete Mas Warna.,1,0
+1486,Dhik Warni gadhah panedha supados dipunsukani potretipun Mas Warna.,2,2
+1487,Dhik Warni gadhah panyuwun supados dipunparingi potretipun Mas Warna.,3,2
+1496,Aku wis dijarwani bab sing dirembug ing sarasehan mau bengi.,0,0
+1497,Kula sampun dipunjarweni bab ingkang dipunrembag ing sarasehan wau dalu.,2,2
+1524,Sajero-jerone kali isih jero sagara.,0,0
+1525,Salebet-lebetipun lepen taksih lebet saganten.,2,2
+1550,"Aku lagi mangan enak, kabeneran kowe teka.",0,0
+1551,"Kula saweg nedha eca, kaleresan sampeyan dhateng.",2,2
+1568,"Anake diajak ndeleng jathilan, malah kaget-kaget weruh barongan.",0,0
+1569,"Putranipun diajak mriksani jathilan, malah kejot-kejot priksa barongan.",1,3
+1570,"Anakipun dipunajak ningali jathilan, malah kaget-kaget sumerep barongan.",2,2
+1571,"Putranipun dipunajak mriksani jathilan, malah kejot-kejot priksa barongan.",3,3
+1592,"Kae adhimu nangis, dening ibune dikapakake?",0,0
+1593,"Menika rayi sampeyan nangis, dening ibunipun dipunmenapakaken?",2,2
+1602,"Aku ora bisa mlaku banter, suwe-suwe dadi kari.",0,0
+1603,"Kula boten saged mlampah banter, dangu-dangu dados kantun.",2,2
+1610,Loro karo telu ana lima.,0,0
+1611,Kalih kaliyan tiga wonten gangsal.,2,2
+1614,Sing nglamar pagawean akehe ora karuwan.,0,0
+1615,Ingkang nglamar padamelan kathahipun boten kantenan.,2,2
+1620,"Bapak wis tau kawetu, yen omah iki diwarisake marang kowe.",0,0
+1621,"Bapak sampun nate kawedal, menawi griya menika dipunwarisaken dhateng sampeyan.",2,2
+1622,Nunggang montor mabur iku rasane kaya apa?,0,0
+1623,Numpak montor mabur menika raosipun kados menapa?,2,2
+1626,"Bemo iku kaya dene becak, mung wae mawa mesin.",0,0
+1627,"Bemo menika kados dene becak, namung kemawon mawi mesin.",2,2
+1640,"Ora ketung sambung obor, mangkata dina iki!",0,0
+1641,"Boten ketang sambet obor, sampeyan mangkat dinten menika!",2,2
+1642,"Bocah nakal iku perlu dikandhani, aja nganti kebanjur-banjur.",0,0
+1643,"Lare nakal menika perlu dipun criyosi, sampun ngantos kelajeng-lajeng.",2,2
+1644,Matamu kok kedhep nrithil iku kena apa?,0,0
+1645,Tinggal panjenengan kok kejep nrithil iku kena apa?,1,1
+1646,Mripat sampeyan kok kedhep nrithil menika kenging menapa?,2,2
+1647,Tingal panjenengan kok kejep nrithil menika kenging menapa?,3,3
+1648,Jupukna kelud kanggo ngresiki peturon!,0,0
+1649,Panjenengan pundhutake samparan kanggo ngrisiki pasarean!,1,1
+1650,Sampeyan pendhetaken kelud kangge ngresiki patileman!,2,2
+1651,Panjenengan pundhutaken samparan kagem ngresiki pasarean!,3,3
+1660,Pitike dibalang kena gegere.,0,0
+1661,Ayamipun dipunbalang kenging gegeripun.,2,2
+1694,"Dening Bu Tanti, Tana dikon nyilih bukune Pak Hasan.",0,1
+1695,"Dening Bu Tanti, Tana didhawuhi nyuwun ngampil bukune Pak Hasan.",1,1
+1696,"Dening Bu Tanti, Tana dipunken nyambut bukunipun Pak Hasan.",2,2
+1697,"Dening Bu Tanti, Tana dipundhawuhi nyuwun ngampil bukunipun Pak Hasan",3,3
+1702,"Bu Sri, kongkonan Tinah supaya mbalekake piringe Bu Fitri!",0,0
+1703,"Bu Sri, utusan Tinah supaya nyaosake bali ambengane Bu Fitri!",1,1
+1704,"Bu Sri, kengkenan Tinah supados mangsulaken ambenganipun Bu Fitri!",2,3
+1705,"Bu Sri, utusan Tinah supados nyaosaken wangsul ambenganipun Bu Fitri!",3,3
+1730,"Mangana gudhangan godhong luntas, jare bisa nyuda ambune kringet!",0,0
+1731,"Panjenengan dhahar gudhangan godhong luntas, ngandikane bisa nyuda gandane riwe!",1,1
+1732,"Sampeyan nedha gudhangan ron luntas, criyosipun saged nyuda ambetipun kringet!",2,2
+1733,"Panjenengan dhahar gudhangan ron luntas, ngandikanipun saged nyuda gandanipun riwe!",3,3
+1818,Gambaranku kliwatan ora dibiji dening Bu Guru.,0,0
+1819,Gambaran kula kelangkungan boten dipunbiji dening Bu Guru.,2,2
+1820,Alas kana kae keliwat-liwat angkere.,0,0
+1821,Wana ngrika menika kelangkung-langkung angkeripun.,2,2
+1830,Kae ana buta keluwih-luwih gedhene.,0,0
+1831,Menika wonten denawa kelangkung-langkung agengipun.,2,2
+1832,"Ana maling lagi arep mlebu omah konangan, banjur mlayu.",0,0
+1833,"Wonten pandung saweg badhe mlebet griya konangan, lajeng mlajeng.",2,2
+1852,Yen kowe lunga anakmu melu apa ora?,0,0
+1853,Yen panjenengan tindak ingkang putra ndherek apa ora?,1,1
+1854,Yen sampeyan kesah anak sampeyan tumut menapa boten?,2,2
+1855,Yen panjenengan tindak ingkang putra ndherek menapa boten?,3,3
+1860,Wis jam rolas bengi kowe kok isih melek?,0,0
+1861,Wis jam rolas bengi panjenengan kok isih wungu?,1,1
+1862,Sampun pukul kalih welas dalu sampeyan kok taksih melek?,2,2
+1863,Sampun pukul kalih welas dalu panjenengan kok taksih wungu?,3,3
+1868,"Rasane atimu kepriye, duwe anak telu wis mentas kabeh?",0,0
+1869,"Raosipun manah sampeyan kadospundi, gadhah anak tiga sampun mentas sadaya?",2,2
+1886,"Enggone ngedusi mengko, aja kesusu mudani anakmu!",0,0
+1887,Enggone nyirami mengko aja kesusu nglukari ingkang putra!,1,1
+1888,"Enggenipun ngedusi mangke, sampun kesesa mudani anak sampeyan!",2,2
+1889,"Enggenipun nyirami mangke, sampun kesesa nglukari ingkang putra!",3,3
+1906,"Sadurunge nunggang bis dheweke mangan Antimo, supaya ora mutah.",0,0
+1907,"Sadurunge nitih bis panjenengane dhahar Antimo, supaya ora luntak.",1,1
+1908,Saderengipun numpak bis piyambakipun nedha Antimo supados boten nuntak.,2,2
+1909,Saderengipun nitih bis panjenenganipun dhahar Antimo supados boten luntak.,3,3
+1912,"Ditukokna klambi anyar, dheweke ora bakal gelem nganggo.",0,0
+1913,"Dipundhutna ageman rasukan anyar, panjenengane ora bakal kersa ngagem!",1,1
+1914,"Dipuntumbasna rasukan enggal, piyambakipun boten badhe purun ngangge.",2,2
+1915,"Dipunpundhutna ageman rasukan enggal, panjenenganipun boten badhe kersa ngagem.",3,3
+1935,Arum ngandhani Ibu supaya ora lunga amarga arep udan.,0,0
+1936,Arum ngaturi Ibu supaya ora tindak amarga arep udan.,1,1
+1937,Arum nyriyosi Ibu supados boten kesah amargi badhe jawah.,2,2
+1938,Arum ngaturi Ibu supados boten tindak amargi badhe jawah.,3,3
+1955,Bu Ningsih lunga menyang kuburan ngirim jenat anake.,0,0
+1956,Bu Ningsih tindak menyang pasarean nyekar swargi putrane.,1,1
+1957,Bu Ningsih kesah dhateng kuburan ngintun jenat anakipun.,2,2
+1958,Bu Ningsih tindak dhateng pasarean nyekar swargi putranipun.,3,3
+1967,Anake lanang Pak Sunu nyambut gawe ing Pertamina.,0,0
+1968,Putrane kakung Pak Sunu ngasta ing Pertamina.,1,1
+1969,Anakipun jaler Pak Sunu nyambut damel wonten ing Pertamina.,2,2
+1970,Putranipun kakung Pak Sunu ngasta ing Pertamina.,3,3
+1997,"Sanajan ana ing toko, anakku ora tau njaluk sing ora-ora.",0,0
+1998,"Sanajan wonten ing toko, anak kula boten nate nedha ingkang boten-boten.",2,2
+1999,Ora-orane yen aku bakal cidra ing janji.,0,0
+2000,Boten-botenipun yen kula badhe cidra ing janji.,2,2
+2003,"Dheweke iku keminter, nanging ora ngerti yen mung dadi paguyonan kanca-kancane.",0,0
+2004,"Piyambakipun menika keminter, nanging boten mangertos yen namung dados pagujengan kanca-kancanipun.",2,2
