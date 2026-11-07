@@ -1,0 +1,1 @@
+PASS: every main notebook code cell; 45 trials; disjoint groups; selected model within budget; local/reference execution, not Google Colab.
