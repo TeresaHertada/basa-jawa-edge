@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f9f7f2">
+  <meta name="description" content="Belajar bahasa Jawa dan unggah-ungguh melalui contoh, prediksi, kuis, dan dialog.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./school-profile.css">
+  <script defer src="./inference.js"></script>
+  <script defer src="./app.js"></script>
+  <script defer src="./school-profile.js"></script>
+  <title>BASA-JAWA Edge · Belajar bahasa Jawa</title>
+</head>
+<body>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm6 11v-8h6v8"/></symbol>
+    <symbol id="icon-book" viewBox="0 0 24 24"><path d="M12 5C9 3 6 3 3 4v14c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1zm0 0v14M6 8c1.3-.3 2.4-.2 3 .2M6 12c1.3-.3 2.4-.2 3 .2"/></symbol>
+    <symbol id="icon-spark" viewBox="0 0 24 24"><path d="M10 3c.7 5 2 6.3 7 7-5 .7-6.3 2-7 7-.7-5-2-6.3-7-7 5-.7 6.3-2 7-7zm9 11v6m-3-3h6m-3-14v4m-2-2h4"/></symbol>
+    <symbol id="icon-quiz" viewBox="0 0 24 24"><path d="M8 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M8 3h8v5H8zm0 11 2.5 2.5L16 11"/></symbol>
+    <symbol id="icon-dialog" viewBox="0 0 24 24"><path d="M15 4H5a2 2 0 0 0-2 2v7l3-2h9a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm5 5a2 2 0 0 1 2 2v8l-3-2h-8a2 2 0 0 1-2-2v-1M7 7.5h6"/></symbol>
+    <symbol id="icon-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.4 9.3a2.7 2.7 0 1 1 3.7 2.5c-.8.5-1.1 1-1.1 1.9M12 16.8h.01"/></symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></symbol>
+    <symbol id="icon-repeat" viewBox="0 0 24 24"><path d="M19 8a8 8 0 1 0 1 7m-1-11v5h-5"/></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 15v5h16v-5"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main-content">Lewati ke isi</a>
+
+  <aside class="sidebar">
+    <a class="brand" href="#/beranda">
+      <span class="brand-mark" aria-hidden="true">Bj</span>
+      <span><strong>BASA-JAWA <i>Edge</i></strong><small>Ruang belajar bahasa Jawa</small></span>
+    </a>
+    <nav class="side-nav" aria-label="Navigasi belajar">
+      <p class="nav-caption">RUANG BELAJAR</p>
+      <a href="#/beranda" data-nav="beranda"><svg class="icon" aria-hidden="true"><use href="#icon-home"/></svg><span>Beranda<small>Mulai dan lihat progres</small></span></a>
+      <a href="#/contoh" data-nav="contoh"><svg class="icon" aria-hidden="true"><use href="#icon-book"/></svg><span>Contoh<small>Cari kalimat dan arti</small></span></a>
+      <a href="#/prediksi" data-nav="prediksi"><svg class="icon" aria-hidden="true"><use href="#icon-spark"/></svg><span>Prediksi<small>Cek tingkat tutur</small></span></a>
+      <a href="#/kuis" data-nav="kuis"><svg class="icon" aria-hidden="true"><use href="#icon-quiz"/></svg><span>Kuis<small>Jawab dan latih ulang</small></span></a>
+      <a href="#/dialog" data-nav="dialog"><svg class="icon" aria-hidden="true"><use href="#icon-dialog"/></svg><span>Dialog<small>Baca percakapan</small></span></a>
+      <a href="#/panduan" data-nav="panduan"><svg class="icon" aria-hidden="true"><use href="#icon-help"/></svg><span>Panduan<small>Ikuti langkah belajar</small></span></a>
+    </nav>
+    <p class="side-credit">Proyek pembelajaran siswa</p>
+  </aside>
+
+  <div class="workspace">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="mobile-brand brand" href="#/beranda">
+          <span class="brand-mark" aria-hidden="true">Bj</span>
+          <strong>BASA-JAWA <i>Edge</i></strong>
+        </a>
+        <span class="breadcrumb"><span>Ruang belajar</span><span aria-hidden="true">/</span><b id="breadcrumb-current">Beranda</b></span>
+        <div class="top-actions">
+          <span id="offline-status" class="status-badge" role="status"><span class="status-dot"></span><span id="offline-label">Menyiapkan…</span></span>
+          <a class="mobile-help" href="#/panduan" data-nav="panduan"><svg class="icon" aria-hidden="true"><use href="#icon-help"/></svg>Panduan</a>
+          <button type="button" id="install" class="button install-button"><svg class="icon" aria-hidden="true"><use href="#icon-download"/></svg>Pasang aplikasi</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content" tabindex="-1">
+      <div id="global-message" class="global-message" role="status" hidden></div>
+
+      <section id="view-beranda" data-view="beranda" aria-labelledby="home-title">
+        <div class="hero">
+          <div class="hero-copy">
+            <p class="hero-kicker"><span aria-hidden="true">✦</span> SUGENG RAWUH</p>
+            <h1 id="home-title">Belajar bahasa Jawa, <em>satu kalimat dulu.</em></h1>
+            <p>Kenali tingkat tutur dari contoh, coba pilih jawabannya, lalu lihat penggunaannya dalam percakapan.</p>
+            <div class="hero-actions">
+              <a href="#/contoh" class="button hero-primary">Mulai dari contoh <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+              <a href="#/panduan" class="hero-link"><svg class="icon" aria-hidden="true"><use href="#icon-help"/></svg>Buka panduan</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-label="Dua contoh dengan arti yang sama, Membawalah jeruk itu">
+            <span class="art-orbit" aria-hidden="true"></span>
+            <span class="art-star" aria-hidden="true">✦</span>
+            <div class="sample-card sample-first"><span>NGOKO</span><strong lang="jv">Nggawaa jeruk kuwi!</strong></div>
+            <div class="sample-card sample-second"><span>KRAMA</span><strong lang="jv">Sampeyan mbekta jeram menika!</strong></div>
+            <small>Keduanya berarti “Membawalah jeruk itu.”</small>
+          </div>
+        </div>
+
+        <section class="progress-panel surface" aria-labelledby="progress-title">
+          <div class="progress-heading">
+            <div><p class="eyebrow">DI BROWSER INI</p><h2 id="progress-title">Progres latihanmu</h2></div>
+            <a id="home-quiz-link" href="#/kuis" class="text-action"><span id="home-quiz-label">Mulai kuis</span> <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+          </div>
+          <dl class="stats">
+            <div><dt><span class="stat-icon violet"><svg class="icon" aria-hidden="true"><use href="#icon-quiz"/></svg></span>Soal dijawab</dt><dd data-progress="total">0</dd></div>
+            <div><dt><span class="stat-icon green"><svg class="icon" aria-hidden="true"><use href="#icon-check"/></svg></span>Tepat di percobaan pertama</dt><dd data-progress="correct">0</dd></div>
+            <div><dt><span class="stat-icon amber"><svg class="icon" aria-hidden="true"><use href="#icon-repeat"/></svg></span>Perlu diulang</dt><dd data-progress="review">0</dd></div>
+          </dl>
+        </section>
+
+        <section class="home-activities" aria-labelledby="activities-title">
+          <p class="eyebrow">EMPAT KEGIATAN</p>
+          <h2 id="activities-title">Pilih kegiatan belajar</h2>
+          <p class="section-intro">Ikuti urutan 1–4 saat pertama kali mencoba. Kamu bisa kembali ke kegiatan mana saja lewat menu.</p>
+          <div class="activity-grid">
+            <a class="activity-card activity-examples" href="#/contoh">
+              <span class="activity-top"><span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#icon-book"/></svg></span><span class="step-number" aria-label="Langkah 1">01</span></span>
+              <strong>Contoh</strong><span>Cari kalimat Jawa, arti, dan tingkat tuturnya.</span>
+              <span class="card-action">Cari kalimat <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span>
+            </a>
+            <a class="activity-card activity-predict" href="#/prediksi">
+              <span class="activity-top"><span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#icon-spark"/></svg></span><span class="step-number" aria-label="Langkah 2">02</span></span>
+              <strong>Prediksi</strong><span>Masukkan kalimat untuk melihat perkiraan tingkat tutur.</span>
+              <span class="card-action">Cek kalimat <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span>
+            </a>
+            <a class="activity-card activity-quiz" href="#/kuis">
+              <span class="activity-top"><span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#icon-quiz"/></svg></span><span class="step-number" aria-label="Langkah 3">03</span></span>
+              <strong>Kuis</strong><span>Pilih tingkat tutur, baca pembahasan, dan latih ulang.</span>
+              <span class="card-action">Mulai latihan <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span>
+            </a>
+            <a class="activity-card activity-dialog" href="#/dialog">
+              <span class="activity-top"><span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#icon-dialog"/></svg></span><span class="step-number" aria-label="Langkah 4">04</span></span>
+              <strong>Dialog</strong><span>Lihat cara dua orang berbicara dalam satu situasi.</span>
+              <span class="card-action">Baca percakapan <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span>
+            </a>
+          </div>
+        </section>
+
+        <details class="surface team-details" id="home-team-details" hidden>
+          <summary>Sekolah dan tim pengembang</summary>
+          <div id="home-school-profile"></div>
+        </details>
+      </section>
+
+      <section id="view-contoh" data-view="contoh" aria-labelledby="learn-title" hidden>
+        <header class="page-heading activity-examples">
+          <span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#icon-book"/></svg></span>
+          <p class="eyebrow">LANGKAH 1 DARI 4</p>
+          <h1 id="learn-title">Cari contoh kalimat</h1>
+          <p>Ketik kata seperti <strong>sekolah</strong>, lalu tekan <strong>Cari contoh</strong>. Baca kalimat Jawa, arti dalam bahasa Indonesia, dan label tingkat tuturnya.</p>
+        </header>
+        <div class="surface panel">
+          <form id="search-form" class="search-form">
+            <label for="query">Kata atau frasa<input id="query" type="search" placeholder="Misalnya sekolah" maxlength="100"></label>
+            <label for="level">Tingkat tutur
+              <select id="level"><option value="">Semua tingkat</option><option value="0">Ngoko</option><option value="1">Ngoko Alus</option><option value="2">Krama</option><option value="3">Krama Alus</option></select>
+            </label>
+            <button type="submit" class="button primary"><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg>Cari contoh</button>
+          </form>
+          <div class="quick-queries">
+            <span>Pilihan cepat</span>
+            <button type="button" data-query="sekolah">sekolah</button><button type="button" data-query="makan">makan</button><button type="button" data-query="jeruk">jeruk</button>
+          </div>
+        </div>
+        <div class="results-heading"><h2 id="search-heading" tabindex="-1">Contoh untuk memulai</h2><span id="search-count" class="quiet-text" role="status"></span></div>
+        <div id="search-results" class="results-grid"></div>
+        <div class="next-step">
+          <p>Saat sudah menemukan satu kalimat, coba lihat perkiraan model. Pilih <strong>Coba prediksi</strong> di kartu untuk menyalin kalimatnya.</p>
+          <a href="#/prediksi" class="text-action">Lanjut ke Prediksi <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        </div>
+      </section>
+
+      <section id="view-prediksi" data-view="prediksi" aria-labelledby="classify-title" hidden>
+        <header class="page-heading activity-predict">
+          <span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#icon-spark"/></svg></span>
+          <p class="eyebrow">LANGKAH 2 DARI 4</p>
+          <h1 id="classify-title">Cek perkiraan tingkat tutur</h1>
+          <p>Tulis satu kalimat Jawa atau pilih <strong>Gunakan contoh</strong>. Tekan <strong>Lihat perkiraan</strong>, lalu bandingkan hasilnya dengan label di halaman Contoh.</p>
+        </header>
+        <div class="prediction-layout">
+          <form id="classify-form" class="surface panel">
+            <label for="sentence">Kalimat bahasa Jawa</label>
+            <textarea id="sentence" rows="5" maxlength="1000" aria-describedby="character-count" placeholder="Nggawaa jeruk kuwi!"></textarea>
+            <p class="character-count" id="character-count">0 / 1000 karakter</p>
+            <div class="button-row">
+              <button type="submit" class="button primary"><svg class="icon" aria-hidden="true"><use href="#icon-spark"/></svg>Lihat perkiraan</button>
+              <button type="button" id="use-example" class="button soft">Gunakan contoh</button>
+            </div>
+          </form>
+          <div id="prediction" class="surface panel prediction-result" tabindex="-1" aria-live="polite">
+            <p class="eyebrow">HASIL PREDIKSI</p>
+            <h2>Siap saat kamu memasukkan kalimat</h2>
+            <p>Di sini kamu akan melihat salah satu dari empat tingkat tutur yang dipelajari.</p>
+            <div class="level-list"><span class="level-label" data-level="0">Ngoko</span><span class="level-label" data-level="1">Ngoko Alus</span><span class="level-label" data-level="2">Krama</span><span class="level-label" data-level="3">Krama Alus</span></div>
+          </div>
+        </div>
+        <div class="next-step">
+          <p>Model memperkirakan tingkat tutur dari pola teks. Untuk memilih tutur dalam percakapan, perhatikan juga siapa yang berbicara dan kepada siapa.</p>
+          <a href="#/kuis" class="text-action">Lanjut ke Kuis <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        </div>
+      </section>
+
+      <section id="view-kuis" data-view="kuis" aria-labelledby="quiz-title" hidden>
+        <header class="page-heading activity-quiz">
+          <span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#icon-quiz"/></svg></span>
+          <p class="eyebrow">LANGKAH 3 DARI 4</p>
+          <h1 id="quiz-title">Latihan tingkat tutur</h1>
+          <p>Baca kalimat dan pilih tingkat tuturnya. Jika ragu, buka petunjuk. Kamu bisa mencoba lagi sebelum melihat pembahasan.</p>
+        </header>
+        <div class="quiz-layout">
+          <div class="surface quiz-panel">
+            <div id="question">Menyiapkan soal latihan…</div>
+            <div id="quiz-actions" class="quiz-actions" hidden>
+              <button type="button" class="button primary" id="next-quiz">Soal baru <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+            </div>
+          </div>
+          <aside class="surface panel quiz-progress">
+            <p class="eyebrow">DI BROWSER INI</p>
+            <h2>Catatan latihan</h2>
+            <p class="quiz-score"><strong data-progress="correct">0</strong><span> / </span><strong data-progress="total">0</strong></p>
+            <p>Tepat di percobaan pertama</p>
+            <p class="review-caption"><b data-progress="review">0</b> soal perlu diulang</p>
+            <button type="button" class="button soft" id="review-quiz" disabled><svg class="icon" aria-hidden="true"><use href="#icon-repeat"/></svg>Latih ulang</button>
+            <small>Soal yang keliru di percobaan pertama masuk daftar ulang.</small>
+          </aside>
+        </div>
+        <div class="next-step">
+          <p>Sudah melihat perbedaan kata pada pembahasan? Amati tingkat tutur saat dua orang berbicara.</p>
+          <a href="#/dialog" class="text-action">Lanjut ke Dialog <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        </div>
+      </section>
+
+      <section id="view-dialog" data-view="dialog" aria-labelledby="dialog-title" hidden>
+        <header class="page-heading activity-dialog">
+          <span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#icon-dialog"/></svg></span>
+          <p class="eyebrow">LANGKAH 4 DARI 4</p>
+          <h1 id="dialog-title">Baca percakapan</h1>
+          <p>Lihat peran A dan B, lalu baca percakapannya. <strong>Siapa berbicara kepada siapa? Tingkat tutur apa yang mereka pakai?</strong></p>
+        </header>
+        <div id="dialog-result" class="dialog-layout" tabindex="-1">Menyiapkan kartu dialog…</div>
+        <div class="dialog-controls">
+          <button type="button" class="button soft" id="prev-dialog"><span aria-hidden="true">←</span> Sebelumnya</button>
+          <span class="quiet-text" id="dialog-count" role="status"></span>
+          <button type="button" class="button primary" id="next-dialog">Berikutnya <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+        </div>
+        <div class="next-step">
+          <p>Temukan kata baru dari percakapan? Cari di halaman Contoh untuk membandingkan kalimat lain.</p>
+          <a href="#/contoh" class="text-action">Cari contoh lagi <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        </div>
+      </section>
+
+      <section id="view-panduan" data-view="panduan" aria-labelledby="help-title" hidden>
+        <header class="page-heading activity-predict">
+          <span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#icon-help"/></svg></span>
+          <p class="eyebrow">PANDUAN SISWA</p>
+          <h1 id="help-title">Coba empat langkah ini</h1>
+          <p>Ikuti langkah berikut untuk satu sesi belajar. Setiap tombol membuka halaman tempat kamu melakukan tugasnya.</p>
+        </header>
+        <ol class="guide-steps">
+          <li class="surface guide-step activity-examples">
+            <span class="feature-icon" aria-hidden="true">1</span>
+            <div><h2>Cari satu kalimat</h2><p>Ketik <strong>sekolah</strong> di kolom pencarian. Tekan <strong>Cari contoh</strong>. Pilih satu kalimat dan baca artinya serta tingkat tuturnya.</p><a class="text-action" href="#/contoh">Buka Contoh <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></div>
+          </li>
+          <li class="surface guide-step activity-predict">
+            <span class="feature-icon" aria-hidden="true">2</span>
+            <div><h2>Bandingkan perkiraan model</h2><p>Tekan <strong>Gunakan contoh</strong>, lalu <strong>Lihat perkiraan</strong>. Baca label yang muncul. Kamu juga bisa memakai tombol <strong>Coba prediksi</strong> pada kartu Contoh.</p><a class="text-action" href="#/prediksi">Buka Prediksi <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></div>
+          </li>
+          <li class="surface guide-step activity-quiz">
+            <span class="feature-icon" aria-hidden="true">3</span>
+            <div><h2>Jawab, baca, dan ulangi</h2><p>Pilih salah satu tingkat tutur. Jika keliru, baca petunjuk dan coba sekali lagi atau buka pembahasan. Gunakan <strong>Latih ulang</strong> untuk mengerjakan kembali soal yang sempat keliru.</p><a class="text-action" href="#/kuis">Buka Kuis <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></div>
+          </li>
+          <li class="surface guide-step activity-dialog">
+            <span class="feature-icon" aria-hidden="true">4</span>
+            <div><h2>Amati siapa yang berbicara</h2><p>Baca peran pembicara A dan B. Lihat label di bawah ucapan masing-masing. Tekan <strong>Berikutnya</strong> untuk melihat situasi lain.</p><a class="text-action" href="#/dialog">Buka Dialog <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></div>
+          </li>
+        </ol>
+
+        <div class="guide-settings">
+          <article class="surface panel">
+            <h2>Pasang aplikasi</h2>
+            <p>Di Chrome atau Edge, gunakan <strong>Pasang aplikasi</strong> atau pilihan instal dari menu browser. Di Safari pada iPhone, buka menu <strong>Bagikan</strong> lalu <strong>Tambahkan ke Layar Utama</strong>.</p>
+            <button type="button" class="button soft" id="install-again"><svg class="icon" aria-hidden="true"><use href="#icon-download"/></svg>Pasang aplikasi</button>
+          </article>
+          <article class="surface panel">
+            <h2>Belajar tanpa internet</h2>
+            <p>Buka aplikasi saat online dan tunggu status <strong>Siap offline</strong>. Setelah itu, aktifkan mode pesawat, matikan Wi-Fi, dan buka kembali aplikasi untuk mencoba keempat kegiatan.</p>
+            <button type="button" class="button soft" id="refresh-status">Periksa kesiapan offline</button>
+            <p id="offline-help-message" class="quiet-text" role="status">Menyiapkan penyimpanan…</p>
+          </article>
+          <article class="surface panel">
+            <h2>Materi belajar</h2>
+            <p>Kalimat, label, dan dialog berasal dari Unggah-Ungguh, Farhansyah dkk. (ACL 2025). Baca label bersama konteks percakapan.</p>
+            <p id="bank-size" class="source-stats">Memuat bank materi…</p>
+            <p><a href="./SOURCES.txt">Catatan sumber</a> · <a href="https://huggingface.co/datasets/JavaneseHonorifics/Unggah-Ungguh">Dataset</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/">Lisensi CC BY-NC 4.0</a></p>
+          </article>
+          <article class="surface panel">
+            <h2>Progres latihan</h2>
+            <p>Progres tersimpan di browser ini. Kalimat yang kamu ketik diproses langsung di perangkat.</p>
+            <button type="button" class="button soft" id="reset-progress">Hapus progres kuis</button>
+          </article>
+        </div>
+        <details class="surface technical-details">
+          <summary>Informasi versi dan pemeriksaan teknis</summary>
+          <p id="model-info">Menyiapkan informasi aplikasi…</p>
+          <p>Catat versi rilis dan Run ID saat melakukan evaluasi.</p>
+          <a href="./test.html">Buka pemeriksaan model dan pengukuran browser</a>
+        </details>
+        <div id="help-school-profile"></div>
+      </section>
+
+      <footer class="page-footer">
+        <span><strong>BASA-JAWA Edge</strong></span>
+        <a href="#/panduan">Sumber dan panduan</a>
+      </footer>
+    </main>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Navigasi belajar">
+    <a href="#/beranda" data-nav="beranda" aria-label="Beranda, mulai dan lihat progres"><svg class="icon" aria-hidden="true"><use href="#icon-home"/></svg><span>Beranda<small>Progres</small></span></a>
+    <a href="#/contoh" data-nav="contoh" aria-label="Contoh, cari kalimat dan arti"><svg class="icon" aria-hidden="true"><use href="#icon-book"/></svg><span>Contoh<small>Cari arti</small></span></a>
+    <a href="#/prediksi" data-nav="prediksi" aria-label="Prediksi, cek tingkat tutur"><svg class="icon" aria-hidden="true"><use href="#icon-spark"/></svg><span>Prediksi<small>Cek tutur</small></span></a>
+    <a href="#/kuis" data-nav="kuis" aria-label="Kuis, jawab dan latih ulang"><svg class="icon" aria-hidden="true"><use href="#icon-quiz"/></svg><span>Kuis<small>Jawab soal</small></span></a>
+    <a href="#/dialog" data-nav="dialog" aria-label="Dialog, baca percakapan"><svg class="icon" aria-hidden="true"><use href="#icon-dialog"/></svg><span>Dialog<small>Baca peran</small></span></a>
+  </nav>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
